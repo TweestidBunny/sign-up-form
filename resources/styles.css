@@ -77,14 +77,61 @@ img {
 fieldset {
   margin: 0;
   border: 0;
+  padding: 20px 40px;
   background-color: #fff;
   box-shadow: 0 .2rem .3rem -.1rem #aaa;
+}
+
+fieldset h2 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 15px 0;
+}
+
+label {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+input {
+  font-size: 1.3rem;
+  border-radius: 5px;
+  padding: 7px;
+  max-width: 75%;
+  margin-top: 2px;
+  background-color: #eee7;
+  border: 1px solid lightgray;
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 5px lightgray, inset 0 0 5px lightgray;
+}
+
+input:invalid {
+  border: 1px solid red;
 }
 
 button {
   background-color: #596d48aa;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 5px;
   font-size: 1vw;
   border: none;
