@@ -64,11 +64,51 @@ img {
   background-color: #eee;
 }
 
+.disclaimer {
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.emph {
+  font-style: italic;
+}
+
 fieldset {
   margin: 0;
   border: 0;
   background-color: #fff;
   box-shadow: 0 .2rem .3rem -.1rem #aaa;
+}
+
+button {
+  background-color: #596d48aa;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1vw;
+  border: none;
+  margin: 30px;
+}
+
+button+p {
+  margin: 0 30px;
+}
+
+button+p a {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button+p a:hover {
+  color: #596d48aa;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #596d48;
+  cursor: pointer;
 }
 
 /* Fieldset is styled to be a different color */
