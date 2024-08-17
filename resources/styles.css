@@ -128,6 +128,17 @@ input:invalid {
   border: 1px solid red;
 }
 
+.pwMsg,
+.cpwMsg {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: red;
+}
+
+.good {
+  color: green;
+}
+
 button {
   background-color: #596d48aa;
   color: #fff;
