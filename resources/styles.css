@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'norsebold';
+  src: url('Norse-Bold.otf') format('opentype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-image: url(fern.jpg);
+  background-size: cover;
+  word-spacing: .2rem;
+}
+
+.leftSide a {
+  color: #c0c0c0;
+}
+
+.leftSide a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  width: 6vw;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: #0008;
+  margin-top: 12rem;
+  font-family: norsebold;
+  font-size: 8rem;
+  padding: 1rem 8rem;
+}
+
+.logo p {
+  padding: 0;
+  margin: 0;
+}
