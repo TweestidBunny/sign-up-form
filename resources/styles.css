@@ -57,3 +57,19 @@ img {
   padding: 0;
   margin: 0;
 }
+
+.rightSide {
+  align-content: center;
+  padding: 0;
+  background-color: #eee;
+}
+
+fieldset {
+  margin: 0;
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0 .2rem .3rem -.1rem #aaa;
+}
+
+/* Fieldset is styled to be a different color */
+/* Button under styled fieldset still part of the form */
