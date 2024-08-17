@@ -49,8 +49,7 @@
                   <input type="tel" id="phone" name="phoneNumber">
                 </li>
                 <li><label for="pwd">PASSWORD</label>
-                  <input type="password" id="pwd" name="password" required
-                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8, 16}$">
+                  <input type="password" id="pwd" name="password" required pattern="^([0-9a-zA-Z])(?=.*[\W]).{7,15}$">
                 </li>
                 <li><label for="confPwd" required>CONFIRM PASSWORD</label>
                   <input type="password" id="confPwd" name="confPassword">
